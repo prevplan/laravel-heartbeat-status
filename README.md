@@ -5,8 +5,8 @@
 [![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/prevplan/laravel-heartbeat-status/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/prevplan/laravel-heartbeat-status/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
 [![Total Downloads](https://img.shields.io/packagist/dt/prevplan/laravel-heartbeat-status.svg?style=flat-square)](https://packagist.org/packages/prevplan/laravel-heartbeat-status)
 
-This package runs a queued job and a schedulded command every few minutes to generate and show a heartbeat status page.  
-The page/route returns a 200 or 503 HTTP status which can be monitored by uptime services such as [upptime](https://github.com/upptime/upptime).
+A simple package to monitor the queue heartbeat and the schedule.  
+It provides a route with a status and a 200 or 503 HTTP state that can be monitored by uptime services such as [upptime](https://github.com/upptime/upptime).
 
 
 ## Installation
