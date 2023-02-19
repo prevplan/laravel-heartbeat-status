@@ -8,7 +8,7 @@
 A simple package to monitor the queue heartbeat and the schedule of a Laravel Site.  
 It provides a route with a status and a 200 or 503 HTTP state that can be monitored by uptime services such as [upptime](https://github.com/upptime/upptime).
 
-Tested with Laravel 9.
+Tested with Laravel 9 + 10.
 
 ## Installation
 
